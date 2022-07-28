@@ -173,11 +173,15 @@ header.d-flex {
     background-position: center;
 }
 
-@media /*(min-width: 750px) and */(min-height: 50vh) {
+@media (min-width: 750px) {
     .profile-picture {
-        height: 70vh;
+        height: 80vh;
+    }
+    .badge{
+        width: 20%;
     }
 }
+
 
 @media (min-width: 900px) /*and (min-height: 100vh) */{
     .profile-picture {
