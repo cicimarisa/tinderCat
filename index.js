@@ -12,7 +12,7 @@ function render() {
                             ${(cat.hasBeenSwiped && !cat.hasBeenLiked) ? `<img class="badge" src="./images/badge-nope.png" alt="Nope mark for the picture">` : ``}   
                             <p><strong>${cat.name}, ${cat.age}</strong><br/>
                             ${cat.bio}</p>
-                            <div class="profile-picture" style="background-image: url('${cat.avatar}')" aria-label="cat's picture"/>
+                            <div class="profile-picture" style="background-image: url('${cat.avatar}')"/>
                         </div>
                       </section>`
 }
