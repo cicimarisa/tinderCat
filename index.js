@@ -44,7 +44,7 @@ function nextCat() {
         render()
         isWaiting = false
     } else {
-        console.log("no-more")
+        alert("No more cats, Please refresh the page.")
     }
 }
 
