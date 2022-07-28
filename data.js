@@ -10,7 +10,7 @@ const cats = [
         name: "Bella",
         avatar: "images/cat-bella.jpg",
         age: 43,
-        bio: "Yup, that's my owner. U can meet him if you want",
+        bio: "Yup, that's my owner. U can meet her if you want",
         hasBeenSwiped: false,
         hasBeenLiked: false
     },
