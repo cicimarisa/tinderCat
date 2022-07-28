@@ -178,15 +178,15 @@ header.d-flex {
     background-position: center;
 }
 
-@media (min-width: 750px) and (min-height: 50vh) {
+/*@media (min-width: 750px) and (min-height: 50vh) {
     .profile-picture {
         height: 70vh;
     }
-}
+}*/
 
 @media (min-width: 900px) and (min-height: 100vh) {
     .profile-picture {
-        height: 50vh;
+        height: 70vh;
     }
 
     .container {
