@@ -175,7 +175,7 @@ header.d-flex {
 
 @media (min-width: 650px) {
     .profile-picture {
-        height: 80vh;
+        height: 100vh;
     }
     .badge{
         width: 20%;
@@ -186,6 +186,10 @@ header.d-flex {
 @media (min-width: 900px) /*and (min-height: 100vh) */{
     .profile-picture {
         height: 70vh;
+    }
+    
+    .badge{
+        width: 50%;
     }
 
     .container {
